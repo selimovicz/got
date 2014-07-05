@@ -13,7 +13,7 @@
 
 
                   <div class="btn-group" data-toggle="buttons-radio" >
-                    <a type="button" data-toggle="button" ng-repeat="character in families | unique:'char_family'" href="#/character/family/{{character.char_family}}" name="char_family" value="{{ character.char_family }}" class="btn btn-warning">{{ character.char_family }}</a>
+                    <a type="button"  active-link="active" data-toggle="button" ng-repeat="character in families | unique:'char_family'" href="#/character/family/{{character.char_family}}" name="char_family" value="{{ character.char_family }}" class="btn btn-custom">{{ character.char_family }}</a>
                   </div>
 
                 </div>
@@ -31,7 +31,7 @@
           <a href="#/character/{{character.char_id}}" role="button"><img class="img-circle" src="{{character.char_image}}" alt="Generic placeholder image" style="width: 180px; height: 180px;"></a>
           <h2>{{ character.char_name }}</h2>
           <p>{{ character.char_description }}</p>
-          <p><a class="btn btn-custom-lighten" href="#/character/{{character.char_id}}" role="button">Character details &raquo;</a></p>
+          <p><a class="btn btn-success" href="#/character/{{character.char_id}}" role="button">Character details &raquo;</a></p>
 
         </div>
       

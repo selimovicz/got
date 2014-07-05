@@ -31,6 +31,23 @@ GotControllers.controller('GotCharList', function ($scope,$http) {
 
   });
 
+GotControllers.controller('GotCharFamily', ['$scope', '$routeParams','$http',
+  function($scope, $routeParams, $http) {
+    $http.get('characters/family/' + $routeParams.char_family + '.json').success(function(data) {
+      $scope.characters = data;
+
+      
+
+    });
+
+    $http.get('characters/chars.json').success(function(data) {
+      $scope.families = data;
+    });
+
+    
+}]);
+
+
 GotControllers.controller('GotCharDetails', ['$scope', '$routeParams','$http',
   function($scope, $routeParams, $http) {
     $http.get('characters/' + $routeParams.char_id + '.json').success(function(data) {
@@ -40,13 +57,3 @@ GotControllers.controller('GotCharDetails', ['$scope', '$routeParams','$http',
   }]);
 
 
-GotControllers.controller('GotCharFamily', ['$scope', '$routeParams','$http',
-  function($scope, $routeParams, $http) {
-    $http.get('characters/family/' + $routeParams.char_family + '.json').success(function(data) {
-      $scope.characters = data;
-    });
-
-    $http.get('characters/chars.json').success(function(data) {
-      $scope.families = data;
-    });
-}]);
