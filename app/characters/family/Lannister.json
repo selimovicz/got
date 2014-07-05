@@ -1,0 +1,18 @@
+[
+	{
+        "char_id": 4,
+        "char_name": "Tywin Lannister",
+        "char_description": "Tywin Lannister is a bad dude, but at least he's a pragmatist. He is one of the smartest men in Westeros, but his fatal flaw is always misjudging his son Tyrion, one of the smartest men in Westeros. Tyrion is much more intelligent than his father gives him credit for. ",
+        "char_family": "Lannister",
+        "char_image": "img/4.png",
+        "acted": "2014-06-15"
+    },
+    {
+         "char_id": 5,
+        "char_name": "Jamie Lannister",
+        "char_description": "In the very first episode of Game of Thrones, Jaime pushed Bran out of a window, forever crippling him because he wanted to keep his incestuous relationship with his sister a secret. Jaime also killed Jory. So with all that nastiness in mind, it says a lot for how far his character has come in the past couple of seasons that he now is viewed as 'not good.' ",
+        "char_family": "Lannister",
+        "char_image": "img/5.png",
+        "acted": "2014-06-20"
+    }
+]

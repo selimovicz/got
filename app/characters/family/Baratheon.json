@@ -1,0 +1,18 @@
+[
+	{
+        "char_id": 6,
+        "char_name": "Robert Baratheon",
+        "char_description": "While Robert was likable enough while he was alive, he actually was one of the most problematic characters in Game of Thrones. Like Daenerys is doing now, he was good at conquering but not at ruling. He neglected his family, lusted after a dead woman and was too busy whoring and hunting to see the problems in his realm. He sowed his own demise. ",
+        "char_family": "Baratheon",
+        "char_image": "img/6.png",
+        "acted": "2014-06-22"
+    },
+    {
+        "char_id": 7,
+        "char_name": "Stannis Baratheon",
+        "char_description": "Like Melisandre, Stannis is doing the (mostly) right thing for the right reason -- he's just going about it in a way we don't like. He's right that he has the right to the Iron Throne, and he likely will be a better king than Robert was. Whether or not he will be a good king is something else entirely. ",
+        "char_family": "Baratheon",
+        "char_image": "img/7.png",
+        "acted": "2014-06-28"
+    }
+]

@@ -1,0 +1,27 @@
+[
+
+    {
+       "id": 1,
+        "char_name": "Robb Stark",
+        "char_description": "Like his father before him. Robb is too good to survive in the world of Westeros. However, he's also a bit selfish; he put his own happiness before the realm, and it led to the deaths of himself, his mother, his wife, his unborn child and the majority of his men. ",
+        "char_family": "Stark",
+        "char_image": "img/1.png",
+        "acted": "2014-06-11"
+    },
+    {
+        "id": 2,
+        "char_name": "Sansa Stark",
+        "char_description": "Sansa has evolved from a petulant girl who believed fairy tales really happen to someone who's shown resilience through the worst possible situations. She is someone who has greatness in front of her, even if her initial naivety led to her father's death. ",
+        "char_family": "Stark",
+        "char_image": "img/2.png",
+        "acted": "2014-06-13"
+    },
+    {
+        "id": 3,
+        "char_name": "John Snow",
+        "char_description": "Jon Snow may know nothing, but at least he knows how to do right by his friends. He has gotten his hands dirty, namely by killing Qhorin Halfhand, but he always did it for the good of the Night's Watch and Westeros. Chances are he'll continue on that path. ",
+        "char_family": "Stark",
+        "char_image": "img/3.png",
+        "acted": "2014-06-14"
+    }
+]

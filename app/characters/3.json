@@ -1,0 +1,10 @@
+[
+	{
+        "char_id": 3,
+        "char_name": "John Snow",
+        "char_description": "Jon Snow may know nothing, but at least he knows how to do right by his friends. He has gotten his hands dirty, namely by killing Qhorin Halfhand, but he always dchar_id it for the good of the Night's Watch and Westeros. Chances are he'll continue on that path. ",
+        "char_family": "Stark",
+        "char_image": "img/3.png",
+        "acted": "2014-06-14"
+    }
+]

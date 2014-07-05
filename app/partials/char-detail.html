@@ -1,0 +1,24 @@
+<div class="container" ng-repeat="character in char_details" style="padding:100px;"> 
+
+      <div class="row">
+         <div class="col-md-4">
+            	<img class="img-circle" src="{{character.char_image}}" alt="Generic placeholder image" style="width: 300px; height: 300px;">
+         </div>
+
+         <div class="col-md-8">
+            <h2>{{ character.char_name }}</h2>
+            <br/>
+            <h4><b>From family:</b> {{ character.char_family }}</h3>
+            <h4><b>Last appeared: </b> {{ character.acted }}</h3>
+            <br/>
+          <p>{{ character.char_description }}</p>
+         </div>
+
+
+		 <div class="row">
+        	<div class="col-md-12 text-center">
+         		<a class="btn btn-custom-lighten" href="#/characters" role="button"><< Go back</a>
+        	</div>
+         
+      	</div>
+</div>
