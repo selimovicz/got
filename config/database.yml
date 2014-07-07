@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: d4f79bfbg7d0l8
+  host: ec2-54-204-2-255.compute-1.amazonaws.com
+  username: wuubreovwttjsz
+  password: GbSnbk6Is3fzUuBJ4mZS158njR
+

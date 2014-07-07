@@ -1,0 +1,24 @@
+<div class="container" style="padding:100px;"> 
+
+      <div class="row">
+         <div class="col-md-4">
+            	<img class="img-circle" src="img/{{char_details.char_image}}" alt="Generic placeholder image" style="width: 300px; height: 300px;">
+         </div>
+
+         <div class="col-md-8">
+            <h2>{{ char_details.char_name }}</h2>
+            <br/>
+            <h4><b>From family:</b> {{ char_details.char_family }}</h3>
+            <h4><b>Last appeared: </b> {{ char_details.acted }}</h3>
+            <br/>
+          <p>{{ char_details.char_description }}</p>
+         </div>
+     </div>
+
+		 <div class="row">
+        	<div class="col-md-12 text-center">
+         		<a class="btn btn-custom" href="#/characters" role="button"><< Go back</a>
+        	</div>
+         
+      	</div>
+</div>

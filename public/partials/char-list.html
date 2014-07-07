@@ -1,0 +1,47 @@
+<div class="container"   ng-init="showData()"> 
+
+      <div class="row">
+         <div class="col-md-5">
+            <h2>Game of Thrones characters</h2>
+         </div>
+
+         <div class="col-md-5">
+            <fieldset style="padding:25px 0px 10px;">
+              <div class="control-group text-left ">
+                <div class="controls">
+                  <div class="btn-group" data-toggle="buttons-radio" model='myModel' options='myOptions'></div>
+
+
+                  <div class="btn-group" data-toggle="buttons-radio" ng-model="filter" >
+                    <a type="button" data-toggle="button" ng-repeat="character in characters | unique:'char_family'" href="#/character/family/{{character.char_family}}" name="char_family" value="{{ character.char_family }}" class="btn btn-custom">{{ character.char_family }}</a>
+                  </div>
+
+                </div>
+              </div>
+            </fieldset>
+         </div>
+
+           <div class="col-md-2" style="padding:25px 0px 10px;">
+           <input ng-model="searchChar" placeHolder='Search characters' class="form-control"  >
+         </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row">
+        <div class="col-lg-3 text-center single-item"  ng-repeat="character in characters | limitTo: paginationLimit() | orderBy:'acted' | filter:searchChar ">
+          <a href="#/character/{{character.id}}" role="button"><img class="img-circle" src="img/{{character.char_image}}" alt="Generic placeholder image" style="width: 180px; height: 180px;"></a>
+          <h2>{{ character.char_name }}</h2>
+          <p>{{ character.char_description }}</p>
+          <p><a class="btn btn-success button-down" href="#/character/{{character.id}}" role="button">Character details &raquo;</a></p>
+
+        </div>
+      
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button class="btn btn-default btn-lg" ng-show="hasMoreDataToShow()" ng-click="showMoreData()">Show more</button>
+        </div>
+         
+      </div>
+   
+      <hr class="featurette-divider">
+

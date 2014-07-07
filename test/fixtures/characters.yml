@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  char_name: MyString
+  char_family: MyString
+  char_description: MyText
+  char_image: MyString
+  char_acted: MyString
+
+two:
+  char_name: MyString
+  char_family: MyString
+  char_description: MyText
+  char_image: MyString
+  char_acted: MyString
